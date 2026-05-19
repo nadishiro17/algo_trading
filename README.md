@@ -114,19 +114,3 @@ SPY  (B&H)           ...
 QQQ  (B&H)           ...
 BND  (B&H)           ...
 ```
-
-## Use of AI Assistants
-
-Claude Code (Anthropic) was used to assist in generating this assignment.
-Specifically, it helped with:
-
-- Designing the trading strategy logic (momentum + mean-reversion combo)
-- Writing the backtesting engine with proper look-ahead bias prevention
-- Implementing Wilder's RSI using EWM to match standard charting platforms
-- Structuring the performance metrics (Sharpe, Calmar, Max Drawdown)
-- Creating all 5 visualizations (equity curves, drawdowns, rolling Sharpe,
-  signal heatmap, annual returns comparison)
-- Writing this README
-
-All code was reviewed and tested by the student. Strategy parameters,
-asset selection, and analysis interpretation are the student's own work.
